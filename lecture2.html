@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>First Program</title>
+    <link rel="stylesheet" href="./lecture1.css" />
+    <!-- style tag used for the changing all value as below as like all h2 chnages -->
+    <link rel="icon" href="./Images/Image1.jpg" />
+
+    <style>
+      body {
+        background-image: url("./Images/background.jpg");
+        background-repeat: no-repeat;  
+        background-size: cover;
+      }
+      .headerImage2 {
+        width: 400px;
+        height: 400px;
+        display: inline-block;
+        margin: 20px 60px;
+        border: 5px solid black;
+        padding: 20px;
+      }
+      .ImageCenter {
+        display: block;
+        width: 50%;
+        height: auto;
+        margin: auto;
+        border-radius: 50%;
+      }
+      .container {
+        display: inline-block;
+        width: 100%;
+        margin: 5px;
+      } 
+      .imgDiv {
+            width: 50%;
+            float: left;
+      }
+      .textDiv {
+        float: right;
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body style="color: brown; background-color: rgb(188, 239, 239)">
+    <h1 style="color: black">Heading One</h1>
+
+    <!-- used to give comment-->
+    <img
+      src="./Images/Image1.jpg"
+      alt="add image its not visible"
+      width="400"
+      height="400"
+    />
+
+    <img src="./Images/Image2.jpg" class="headerImage2" alt="image nature" />
+
+    <!--below use for giving link to website into image-->
+    <img src="./Images/workplace.jpg" alt="Workplace" usemap="#workmap" />
+    <map name="workmap">
+      <area
+        shape="poly"
+        coords="96,45,234,45,233,136,240,156,205,172,80,171,95,138"
+        alt="Computer"
+        href="http://www.google.com"
+      />
+      <area
+        shape="poly"
+        coords="37,127,58,124,78,129,76,155,54,163,41,160"
+        alt="Coffee"
+        href="http://www.google.com"
+      />
+    </map>
+    <div class="container">
+      <div class="imgDiv">
+        <img src="./Images/workplace.jpg" class="ImageCenter" />
+      </div>
+      <div class="textDiv">
+        <h1>Heading One</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
+          corporis deserunt debitis. Aut deleniti voluptatibus, nemo delectus
+          quasi veniam ratione?
+        </p>
+        <button>Click me</button>
+      </div>
+    </div>
+  </body>
+</html>

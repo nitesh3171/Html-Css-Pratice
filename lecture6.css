@@ -1,0 +1,61 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+#fontID {
+    color: blueviolet;
+}
+
+
+.fontColor {
+
+    color: brown;
+}
+
+div {
+    border-style: solid;
+}
+
+div p {
+    background-color: aquamarine;
+}
+
+div .pformat {
+    background-color: bisque;
+}
+
+div>span,
+p {
+    color: blue;
+}
+
+p+h1 {
+    font-weight: bolder;
+    color: pink;
+}
+
+p~h1 {
+    font-weight: bolder;
+    color: pink;
+}
+
+h1:hover {
+    font-size: larger;
+}
+
+.elemtSelctor::first-letter {
+    font-size: xx-large;
+}
+
+.elemtSelctor::first-line {
+    color: coral;
+}
+
+/* used it in list li */
+.elemtSelctor::marker {
+    content: '$';
+}

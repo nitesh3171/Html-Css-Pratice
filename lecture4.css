@@ -1,0 +1,42 @@
+.navbar{
+    height: 90px;
+    background-color: rgb(45, 129, 204);
+    width: 50%;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    float: left;
+    margin: 25px 30px;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar ul li a:hover{
+    font-size: 30px;
+}
+
+.logo {
+    width: 80px;
+    height: 70px;
+    margin-top: 10px;
+    margin-right: 50px;
+    float: left;
+    border-radius: 50%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td {
+    text-align: center;
+}
+tr {
+    height: 50px;
+}

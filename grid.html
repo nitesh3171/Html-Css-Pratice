@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5</title>
+    <style>
+        .main {
+            height: 700px;
+            width: 100%;
+            display: grid;
+            gap: 10px;
+            overflow: hidden;
+            background-color: rgb(255, 255, 255);
+            grid-template-areas: 'img1 img1 img2 img2 img5 '
+                                 'img1 img3 img2 img4 img4 '
+                                 'img3 img3 img3 img4 img4 '
+                                 'img3 img3 img3 img4 img4 ';
+        }
+        .img1 {
+            background-image: url(https://www.wallpaperhub.app/_next/image?url=https%3A%2F%2Fcdn.wallpaperhub.app%2Fcloudcache%2F8%2F4%2F1%2F5%2Fb%2Fb%2F8415bb0aa1df470e610572fc2475c00b59804849.jpg&w=2880&h=1920&q=100);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            grid-area: img1;
+            transform: translate(-1010px, -390px) rotate(-45deg);
+        }
+        .img2 {
+            background-image: url(https://www.wallpaperhub.app/_next/image?url=https%3A%2F%2Fcdn.wallpaperhub.app%2Fcloudcache%2F4%2F4%2Fc%2Fa%2F0%2Fb%2F44ca0b07ab4b7537670a492ceb50c4ea7512d9c1.jpg&w=2880&h=1920&q=100);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            grid-area: img2;
+            height: 250px;
+            transform: translate(160px, -390px) rotate(-45deg);
+        }
+        .img3 {
+            background-image: url(https://www.wallpaperhub.app/_next/image?url=https%3A%2F%2Fcdn.wallpaperhub.app%2Fcloudcache%2F9%2Fa%2F4%2Fa%2F4%2F2%2F9a4a42b04e59368e59c2fafa9190fd52a7a3a396.jpg&w=2880&h=1920&q=100);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            grid-area: img3;
+            height: 750px;
+            transform: translate(-210px, 450px) rotate(45deg);
+
+        }
+        .img4 {
+            background-image: url(https://www.wallpaperhub.app/_next/image?url=https%3A%2F%2Fcdn.wallpaperhub.app%2Fcloudcache%2Fe%2Fb%2Fe%2F1%2F9%2F7%2Febe197a4c8176301e9c1e52a52f93e677fb86aaa.jpg&w=1920&q=75);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            grid-area: img4;
+            width: 1050px;
+            height: 420px;
+            transform: translate(440px, 300px) rotate(45deg);
+        }
+        .img5 {
+            background-image: url(https://www.wallpaperhub.app/_next/image?url=https%3A%2F%2Fcdn.wallpaperhub.app%2Fcloudcache%2Fa%2F2%2F9%2F4%2Fe%2F1%2Fa294e1129be5ff5d5430b4c4f7ab5b85bd885b36.jpg&w=1920&q=75);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            grid-area: img5;
+            height: 900px;
+            width: 950px;
+            transform: translate(870px, -550px) rotate(-45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="img1"></div>
+        <div class="img2"></div>
+        <div class="img3"></div>
+        <div class="img4"></div>
+        <div class="img5"></div>
+
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5</title>
+    <style>
+        .main {
+            height: 680px;
+            width: 100%;
+            display: grid;
+            gap: 10px;
+            overflow: hidden;
+            background-color: rgb(144, 244, 244);
+            grid-template-areas: 'tl tl tl mt mt mt tr tr'
+                                 'tl tl tl mt mt mt tr tr'
+                                 'bl bl bl bl m m m m'
+                                 'bl bl bl bl m m m m';
+
+        }
+        /* .tr {
+            transform: rotate(20deg);
+        } */
+
+        .tl {
+            height: 400px;
+            transform: translate(-200px, -180px) rotate(-40deg);
+        }
+        .bl {
+            height: 570px;
+            transform: translate(-300px, 0px) rotate(-40deg);
+        }
+        .mt {
+            height: 270px;
+            transform: translate(-330px, -10px) rotate(-40deg);
+        }
+        .m {
+            
+            transform: translate(-270px, -140px) rotate(50deg);
+        }
+        .tr {
+            
+            transform: translate(-180px, -100px) rotate(-40deg);
+        }
+        img {
+            height: 50%;
+            width: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="tl" style="background-image: url(../Images/p1.jpg); overflow: hidden; grid-area: tl; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+        <div class="bl" style="background-image: url(../Images/p2.jpg); overflow: hidden; grid-area: bl; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+        <div class="mt" style="background-image: url(../Images/p3.jpg); overflow: hidden; grid-area: mt; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+        <div class="m" style="background-image: url(../Images/menub2.jpg); overflow: hidden; grid-area: m; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+        <div class="tr" style="background-image: url(../Images/p4.jpg); overflow: hidden; grid-area: tr; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+    </div>
+</body>
+</html> -->

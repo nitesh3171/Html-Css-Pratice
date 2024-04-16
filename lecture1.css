@@ -1,0 +1,9 @@
+/* '*'is used as universal selector which formats the document of all element in same size*/
+*{
+    box-sizing: border-box;
+
+}
+/*pre{
+    color: rgb(15, 1, 1);
+    font-size: larger;
+}*/
