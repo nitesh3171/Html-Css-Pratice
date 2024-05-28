@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="" method="post" enctype="">
+
+        <label for="user_id"> Age</label>
+        <input type="number" placeholder="enter your age" name="age_of_user" id="user_id" min="10" max="100"/>
+        <br>
+        <!-- name attribute is used for to what name server is store the data which we are sending  -->
+        <!-- in label hhen we add id in for attribute then it will bind with input tag and then after anywhere we can press we gon in input box -->
+
+        <label for=""> current date</label>
+        <input type="datetime-local" placeholder="enter date" name="current_date"/>
+        <br>
+
+        <label for=""> Emial</label>
+        <input type="email" placeholder="enter your email" name="email_of_user" required/>
+        <br>
+        <!-- required is used to make that iput box mandatory -->
+
+        <label for=""> Passowrd</label>
+        <input type="password" placeholder="enter your password" name="password_of_user"/>
+        <br>
+
+        <input type="submit" value="Submit Button"/>
+        <input type="reset" value="Reset All">
+
+    </form>
+</body>
+</html>
